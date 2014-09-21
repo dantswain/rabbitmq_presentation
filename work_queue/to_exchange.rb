@@ -1,5 +1,9 @@
 # encoding: utf-8
 
+# Example of publishing a single message to an exchange.
+# Note we make sure the exchange exists and is bound to
+# the queue.
+
 require 'bunny'
 
 connection = Bunny.new

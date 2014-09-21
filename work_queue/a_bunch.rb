@@ -1,5 +1,8 @@
 # encoding: utf-8
 
+# publish a bunch of messages to the worker exchange
+# in a short amount of time
+
 require 'bunny'
 
 connection = Bunny.new
